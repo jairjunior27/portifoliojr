@@ -35,6 +35,7 @@ export const Sobre = () => {
               icon={item.icon}
               rel="noopener noreferrer"
               target="_blank"
+              className="text-gray-500"
             />
           ))}
         </ul>
