@@ -1,0 +1,38 @@
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaGithub,
+  FaGit,
+  FaMobileAlt,
+  FaCodeBranch,
+  FaLock,
+  FaPlug,
+  FaServer,
+  FaCode,
+  FaMicrochip,
+  FaPython,
+} from "react-icons/fa";
+import { SiPostgresql } from "react-icons/si";
+
+export const StacksItem = [
+  { name: "HTML", icon: <FaHtml5 color="#E34F26" size={30} /> },
+  { name: "CSS", icon: <FaCss3Alt color="#2965F1"size={30}/> },
+  { name: "JavaScript", icon: <FaJs color="#F7DF1E"size={30} /> },
+  { name: "ReactJS", icon: <FaReact color="#61DAFB"size={30} /> },
+  { name: "React Native", icon: <FaMobileAlt color="#61DAFB"size={30} /> },
+  { name: "Node.js", icon: <FaNodeJs color="#68A063"size={30} /> },
+  { name: "Next.js", icon: <FaCodeBranch color="#000000" size={30}/> },
+  { name: "Tailwind CSS", icon: <FaCss3Alt color="#06B6D4"size={30} /> },
+  { name: "JWT", icon: <FaLock color="#2D3748" size={30}/> },
+  { name: "Axios", icon: <FaPlug color="#5A29A3"size={30} /> },
+  { name: "GitHub", icon: <FaGithub color="#181717" size={30}/> },
+  { name: "Git", icon: <FaGit color="#F1502F" size={30}/> },
+  { name: "Express", icon: <FaServer color="#000000" size={30}/> },
+  { name: "TypeScript", icon: <FaCode color="#3178C6"size={30} /> },
+  { name: "Arduino", icon: <FaMicrochip color="#00979D" size={30}/> },
+  { name: "Python", icon: <FaPython color="#306998" size={30} /> },
+  { name: "Postgree", icon: <SiPostgresql color="#336791" size={30} /> },
+];
