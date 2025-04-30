@@ -33,7 +33,7 @@ export const HeroPage = () => {
         <p className="text-xl max-md:text-sm  text-gray-300 text-center m-4">
           Bacharel em Ciências da Computação e Desenvolvedor Full Stack
         </p>
-        <nav className="my-3">
+        <nav className="my-2">
           <ul className="flex">
             {menu.map((item, index) => (
               <NavItem
@@ -52,14 +52,14 @@ export const HeroPage = () => {
       <ButtomItem
         label="Download CV"
         link="/curriculo/CurriculoJair.pdf"
-        className="bg-orange-500 my-12 text-gray-200 py-1.5 px-4 rounded-xl cursor-pointer opacity-70 hover:opacity-100"
+        className="bg-orange-500 my-6 text-gray-200 py-1.5 px-4 rounded-xl cursor-pointer opacity-70 hover:opacity-100"
       />
 
-      <h2 className="text-gray-200 text-2xl  max-sm:text-lg font-bold mb-5">
+      <h2 className="text-gray-200 text-2xl  max-sm:text-lg font-bold mb-3">
         Minhas Stacks
       </h2>
 
-      <div className="w-full max-w-[1800px] m-6 ">
+      <div className="w-full max-w-[1800px]  ">
         <div className="flex items-center  overflow-x-auto  scrollbar-hide ">
           {dadosStack.map((item, index) => (
             <StackIcon icon={item.icon} name={item.name} key={index} />
