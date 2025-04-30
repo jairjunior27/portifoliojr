@@ -11,7 +11,7 @@ export const HeroPage = () => {
   const dadosStack = StacksItem;
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center"
+      className="min-h-screen flex flex-col items-center justify-center p-8"
       id="home"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(${imgFundo.src})`,
